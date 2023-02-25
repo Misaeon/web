@@ -35,6 +35,8 @@ custom_css = """
 # Inject custom CSS into the app using st.markdown
 st.markdown(custom_css, unsafe_allow_html=True)
 
+st.set_page_config(page_icon=':rocket:', layout='wide', initial_sidebar_state='expanded', font='Century Gothic')
+
 # In[2] webapp
 # Title
 img = Image.open("IAQ4EDU.png")
