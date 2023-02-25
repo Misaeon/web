@@ -103,11 +103,11 @@ if st.button("Know your IAQ"):
     prediction = clf.predict(X)[0]
     
     # Output prediction
-    if prediction == '1':
+    if prediction == 1:
         st.text(f"Your IAQ level is：Good")
-    if prediction == '2':
+    if prediction == 2:
         st.text(f"Your IAQ level is：Acceptable")
-    if prediction == '3':
+    if prediction == 3:
         st.text(f"Your IAQ level is：Bad")
         
     
