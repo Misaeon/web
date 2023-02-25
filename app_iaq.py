@@ -20,9 +20,9 @@ custom_css = """
             font-size: 18px !important;
         }
         
-        /* Set font style to Arial */
+        /* Set font style to Century Gothic */
         body {
-            font-family: 'Century Gothic', sans-serif !important;
+            font-family: 'Century Gothic' !important;
         }
         
         /* Set font weight to bold */
@@ -44,7 +44,7 @@ st. image(img)
 
 # Selectbox
 Season = "Season"
-st.markdown(f"<span style='font-family: Century Gothic; font-size: 18px; font-weight: bold;'>{Season}</span>", unsafe_allow_html=True)
+st.markdown(f"<span style='font-size: 18px; font-weight: bold;'>{Season}</span>", unsafe_allow_html=True)
 selectboxexample = st.selectbox(label="Season", label_visibility='collapsed', options=("Spring", "Summer", "Winter"))
 
 # Input bar 1
