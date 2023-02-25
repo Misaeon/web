@@ -44,7 +44,7 @@ st. image(img)
 
 # Selectbox
 Season = "Season"
-st.markdown(f"<span style='font-size: 18px; font-weight: bold;'>{Season}</span>", unsafe_allow_html=True)
+st.markdown(f"<span style='font-family: Century Gothic; font-size: 18px; font-weight: bold;'>{Season}</span>", unsafe_allow_html=True)
 selectboxexample = st.selectbox(label="Season", label_visibility='collapsed', options=("Spring", "Summer", "Winter"))
 
 # Input bar 1
