@@ -22,7 +22,7 @@ custom_css = """
         
         /* Set font style to Century Gothic */
         body {
-            font-family: 'Century Gothic' !important;
+            font-family: 'Century Gothic', sans-serif;
         }
         
         /* Set font weight to bold */
