@@ -20,7 +20,7 @@ st. image(img)
 # In[3] webapp
 
 # Selectbox
-selectboxexample = st.radio(label="Season", options=("Spring", "Summer", "Winter"))
+selectboxexample = st.selectbox(label="Season", options=("Spring", "Summer", "Winter"))
 
 # Input bar 1
 volume = st.number_input(label="Classroom volume", min_value=0.00, format='%.2f')
