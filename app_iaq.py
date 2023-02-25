@@ -14,12 +14,7 @@ import joblib
 # In[2] custom font
 # Define custom CSS to set font size, font style, and font weight
 custom_css = """
-    <style>
-        @font-face {
-        font-family: 'Century Gothic';
-        src: url('https://fonts.googleapis.com/css?family=Century+Gothic');
-        }
-        
+    <style>  
         /* Set font size to 18px */
         body {
             font-size: 18px !important;
@@ -27,7 +22,7 @@ custom_css = """
         
         /* Set font style to Century Gothic */
         body {
-            font-family: 'Century Gothic', sans-serif;
+            font-family: 'Century Gothic', sans-serif !important;
         }
         
         /* Set font weight to bold */
